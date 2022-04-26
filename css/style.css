@@ -46,6 +46,9 @@ footer{
 .card-img-filter{
     filter: brightness(0.5);
 }
+.look-more:hover{
+    text-shadow: 2px 4px 3px rgb(236, 45, 55);
+}
 /* about */
 .title-about{
     font-family: serif;
@@ -127,5 +130,10 @@ footer{
     font-family: serif;
 }
 .contactoInputs button:hover{
-    background-color: #e7eef39f;
+    background-color: #c4c8ca;
+}
+@media screen and (max-width: 772px){
+    .carousel-item{
+        height: 300px;
+    }
 }
